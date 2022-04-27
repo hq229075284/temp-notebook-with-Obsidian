@@ -7,10 +7,12 @@
         "id": "7729ffb628c63dff",
         "type": "leaf",
         "state": {
-          "type": "diff-view",
+          "type": "markdown",
           "state": {
             "file": "vue3.md",
-            "staged": false
+            "mode": "source",
+            "backlinks": false,
+            "source": false
           }
         }
       }
@@ -68,6 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "vue3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -101,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "vue3.md"
+              }
             }
           },
           {
