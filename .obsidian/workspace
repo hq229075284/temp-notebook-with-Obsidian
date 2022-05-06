@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vue3.md",
+            "file": "proxy.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "vue3.md",
+                "file": "proxy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vue3.md"
+                "file": "proxy.md"
               }
             }
           },
@@ -126,8 +126,8 @@
   },
   "active": "7729ffb628c63dff",
   "lastOpenFiles": [
-    "vue3.md",
     "proxy.md",
+    "vue3.md",
     "temp.md"
   ]
 }
