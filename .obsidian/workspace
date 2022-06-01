@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "proxy.md",
+            "file": "audio-autoplay.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -70,7 +70,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "proxy.md",
+                "file": "audio-autoplay.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "proxy.md"
+                "file": "audio-autoplay.md"
               }
             }
           },
@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,6 +126,8 @@
   },
   "active": "7729ffb628c63dff",
   "lastOpenFiles": [
+    "audio-autoplay.md",
+    "自动播放音频测试结果.md",
     "proxy.md",
     "vue3.md",
     "temp.md"
