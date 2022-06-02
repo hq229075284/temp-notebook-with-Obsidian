@@ -7,11 +7,8 @@
         "id": "7729ffb628c63dff",
         "type": "leaf",
         "state": {
-          "type": "diff-view",
-          "state": {
-            "file": ".obsidian/workspace",
-            "staged": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -59,6 +56,20 @@
     "type": "split",
     "children": [
       {
+        "id": "7912e4a94aa912f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3a50965a7f728a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "6c662aba5caba160",
         "type": "tabs",
         "children": [
@@ -97,14 +108,6 @@
             }
           },
           {
-            "id": "f3a50965a7f728a2",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
             "id": "2894476c3fc26360",
             "type": "leaf",
             "state": {
@@ -113,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -121,8 +124,9 @@
   },
   "active": "7729ffb628c63dff",
   "lastOpenFiles": [
-    "poptate-test.md",
+    "未命名.md",
     "audio-autoplay.md",
+    "poptate-test.md",
     "自动播放音频测试结果.md",
     "proxy.md",
     "vue3.md",

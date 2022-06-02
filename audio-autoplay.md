@@ -8,7 +8,9 @@ audio.play()
 描述：无交互，直接代码调用audio.play()
 
 结果：
-```ad-bug
+```ad-failure
+title: 报异常
+
 Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first. [https://goo.gl/xX8pDD](https://goo.gl/xX8pDD)
 ```  
 
@@ -23,7 +25,9 @@ setTimeout(()=>{
 描述：无交互，在异步任务中调用audio.play()
 
 结果：
-```ad-bug
+```ad-failure
+title: 报异常
+
 Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first.  [https://goo.gl/xX8pDD](https://goo.gl/xX8pDD)
 ```  
 
