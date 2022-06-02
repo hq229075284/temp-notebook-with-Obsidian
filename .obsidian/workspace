@@ -7,12 +7,10 @@
         "id": "7729ffb628c63dff",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diff-view",
           "state": {
             "file": "TODO LIST.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "staged": false
           }
         }
       }
@@ -69,9 +67,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "TODO LIST.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TODO LIST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
