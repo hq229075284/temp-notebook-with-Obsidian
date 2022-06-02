@@ -7,8 +7,13 @@
         "id": "7729ffb628c63dff",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "TODO LIST.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
         }
       }
     ],
@@ -64,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TODO LIST.md"
+              }
             }
           }
         ]
@@ -79,6 +86,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "TODO LIST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -124,7 +132,8 @@
   },
   "active": "7729ffb628c63dff",
   "lastOpenFiles": [
-    "未命名.md",
+    "TODO LIST.md",
+    "组员空闲情况.md",
     "audio-autoplay.md",
     "poptate-test.md",
     "自动播放音频测试结果.md",
