@@ -7,11 +7,10 @@
         "id": "e33225818f59720f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "diff-view",
           "state": {
-            "file": "proxy.md",
-            "mode": "preview",
-            "source": false
+            "file": "TODO LIST.md",
+            "staged": false
           }
         }
       }
@@ -60,7 +59,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3682d23b2cd5a500",
+        "id": "7912e4a94aa912f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3a50965a7f728a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "6c662aba5caba160",
         "type": "tabs",
         "children": [
           {
@@ -69,36 +82,44 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "proxy.md"
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
               }
             }
           },
           {
-            "id": "689adc52cb17ea36",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "proxy.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "99efd7ebf4e93e4d",
+            "id": "2894476c3fc26360",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,10 +127,13 @@
   },
   "active": "e33225818f59720f",
   "lastOpenFiles": [
+    "TODO LIST.md",
+    "组员空闲情况.md",
+    "audio-autoplay.md",
+    "poptate-test.md",
+    "自动播放音频测试结果.md",
     "proxy.md",
-    "未命名.md",
-    "Untitled.md",
-    "123.md",
-    "12.md"
+    "vue3.md",
+    "temp.md"
   ]
 }
