@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7729ffb628c63dff",
+        "id": "858645a0b97f3fc5",
         "type": "leaf",
         "state": {
-          "type": "diff-view",
-          "state": {
-            "file": "TODO LIST.md",
-            "staged": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -125,7 +122,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "7729ffb628c63dff",
+  "active": "858645a0b97f3fc5",
   "lastOpenFiles": [
     "TODO LIST.md",
     "组员空闲情况.md",
