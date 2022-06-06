@@ -10,6 +10,14 @@
           "type": "empty",
           "state": {}
         }
+      },
+      {
+        "id": "979f086cb49e832c",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -122,8 +130,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "858645a0b97f3fc5",
+  "active": "979f086cb49e832c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "TODO LIST.md",
     "组员空闲情况.md",
     "audio-autoplay.md",
