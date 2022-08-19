@@ -1,0 +1,3 @@
+- [ ] keep-alive流程了解
+- [ ] transition过程了解
+- [ ] rollup插件编写
