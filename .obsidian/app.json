@@ -4,5 +4,6 @@
   "legacyEditor": false,
   "readableLineLength": false,
   "strictLineBreaks": true,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "communityThemeSortOrder": "release"
 }

@@ -1,4 +1,5 @@
 {
   "translucency": false,
-  "theme": "system"
+  "theme": "system",
+  "cssTheme": "Traffic Lights"
 }
