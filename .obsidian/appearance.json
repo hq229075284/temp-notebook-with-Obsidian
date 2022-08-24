@@ -1,3 +1,5 @@
 {
-  "translucency": false
+  "translucency": false,
+  "theme": "system",
+  "cssTheme": "Obsidian gruvbox"
 }
