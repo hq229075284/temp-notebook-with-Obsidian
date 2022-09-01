@@ -10,6 +10,12 @@
 元素requestFullscreen后，可能发生的情况：
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ff0000'}}}%%
+  graph TD
+    a --> b
+```
+
+```mermaid
 flowchart TB
 Start --> A(requestFullsreen返回的promise resolve后)
 A --情况1--> B1(fullscreenchange触发)
