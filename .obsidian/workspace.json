@@ -29,9 +29,19 @@
                 "currentVersion": "1.0.0"
               }
             }
+          },
+          {
+            "id": "168bbfdb416ea1e3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,10 +159,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "57c15420c359a494",
+  "active": "168bbfdb416ea1e3",
   "lastOpenFiles": [
     "ResizeObserver.md",
     "fullscreen测试.md",
