@@ -1,9 +1,9 @@
-# ResizeObserver
+## 边界情况1
 
-元素被resizeObserver监听后，
-+ 当该元素display显隐时，会执行监听回调
-+ 当该元素从DOM树中移除时，会执行监听回调
-+ 当该元素重新添加到DOM树中时，会执行监听回调
+**元素被resizeObserver监听后，**
++ **当该元素display显隐时，会执行监听回调**
++ **当该元素从DOM树中移除时，会执行监听回调**
++ **当该元素重新添加到DOM树中时，会执行监听回调**
 
 > 测试代码
 
@@ -101,4 +101,35 @@
   </body>
 
 </html>
+```
+
+
+## 边界情况2
+
+**在ResizeObserver的监听回调执行前，如果监听的元素大小恢复到之前的大小，则该监听回调不触发**
+
+> 测试代码
+
+```javascript
+const h1=document.querySelector('h1')
+
+  
+
+let prevH1Width=h1.clientWidth
+
+window.addEventListener('resize',()=>{
+
+  console.log('window resize')
+
+  h1.style.width=prevH1Width+'px'
+
+})
+
+const ob=new ResizeObserver((entry)=>{
+
+  console.log('resize observer:',entry)
+
+})
+
+ob.observe(h1)
 ```

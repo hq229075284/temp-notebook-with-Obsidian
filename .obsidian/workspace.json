@@ -13,35 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "代码审查问题.md",
-                "mode": "preview",
+                "file": "ResizeObserver.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "57c15420c359a494",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
-          },
-          {
-            "id": "168bbfdb416ea1e3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.3"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "代码审查问题.md"
+                "file": "ResizeObserver.md"
               }
             }
           }
@@ -115,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "代码审查问题.md",
+                "file": "ResizeObserver.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,17 +138,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "168bbfdb416ea1e3",
+  "active": "0909c2cef9ba04c5",
   "lastOpenFiles": [
-    "ResizeObserver.md",
     "fullscreen测试.md",
+    "ResizeObserver.md",
+    "代码审查问题.md",
     "Table.md",
     "TODO LIST.md",
     "vue3.md",
     "vertical-align.md",
     "proxy.md",
     "postcss插件开发记录.md",
-    "poptate-test.md",
-    "audio-autoplay.md"
+    "poptate-test.md"
   ]
 }
