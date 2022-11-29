@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b1e259cb088aa8c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git submodule.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Table.md"
+                "file": "git submodule.md"
               }
             }
           }
@@ -94,7 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Table.md",
+                "file": "git submodule.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -138,12 +152,12 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0909c2cef9ba04c5",
+  "active": "b1e259cb088aa8c8",
   "lastOpenFiles": [
+    "Table.md",
     "ResizeObserver.md",
     "fullscreen测试.md",
     "代码审查问题.md",
-    "Table.md",
     "TODO LIST.md",
     "vue3.md",
     "vertical-align.md",
