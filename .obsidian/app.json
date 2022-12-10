@@ -5,5 +5,10 @@
   "readableLineLength": false,
   "strictLineBreaks": true,
   "showFrontmatter": true,
-  "communityThemeSortOrder": "release"
+  "communityThemeSortOrder": "release",
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ],
+  "spellcheck": true
 }

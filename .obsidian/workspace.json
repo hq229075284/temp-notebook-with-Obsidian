@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "9e228d4b678513cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d8c7827293888f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0909c2cef9ba04c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Table.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1e259cb088aa8c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "git submodule.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de0ec850e3b2069d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e02d8d6eb9a454a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9a15f671331d09b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "eff324bbb3518c56",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bca8837689319ff8",
+    "type": "split",
+    "children": [
+      {
+        "id": "7912e4a94aa912f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f3a50965a7f728a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "git submodule.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6c662aba5caba160",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c08bf99f3c01ee4",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "git submodule.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "2894476c3fc26360",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 343.5
+  },
+  "active": "f3a50965a7f728a2",
+  "lastOpenFiles": [
+    "Table.md",
+    "ResizeObserver.md",
+    "fullscreen测试.md",
+    "代码审查问题.md",
+    "TODO LIST.md",
+    "vue3.md",
+    "vertical-align.md",
+    "proxy.md",
+    "postcss插件开发记录.md",
+    "poptate-test.md"
+  ]
+}

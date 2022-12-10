@@ -1,5 +1,6 @@
 {
   "translucency": false,
   "theme": "system",
-  "cssTheme": "Obsidian gruvbox"
+  "cssTheme": "Obsidian gruvbox",
+  "accentColor": ""
 }
