@@ -92,7 +92,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git submodule.md"
+                "file": "Table.md"
               }
             }
           }
@@ -108,7 +108,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "git submodule.md",
+                "file": "Table.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
