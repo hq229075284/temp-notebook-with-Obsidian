@@ -55,7 +55,7 @@
                 "file": "typescript.md",
                 "mode": "preview",
                 "backlinks": false,
-                "source": false
+                "source": true
               }
             }
           }
@@ -180,6 +180,8 @@
   },
   "active": "60ea01f0a616eee5",
   "lastOpenFiles": [
+    "Dingtalk_20221220170007.jpg",
+    "typescript.md",
     "HTTPS.md",
     "Table.md",
     "ResizeObserver.md",
@@ -187,8 +189,6 @@
     "代码审查问题.md",
     "TODO LIST.md",
     "vue3.md",
-    "vertical-align.md",
-    "proxy.md",
-    "postcss插件开发记录.md"
+    "vertical-align.md"
   ]
 }
