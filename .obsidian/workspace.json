@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "60ea01f0a616eee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTTPS.md"
+                "file": "typescript.md"
               }
             }
           }
@@ -121,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTTPS.md",
+                "file": "typescript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,8 +178,9 @@
     "direction": "horizontal",
     "width": 343.5
   },
-  "active": "9c322a0faf23f660",
+  "active": "60ea01f0a616eee5",
   "lastOpenFiles": [
+    "HTTPS.md",
     "Table.md",
     "ResizeObserver.md",
     "fullscreen测试.md",
@@ -175,7 +189,6 @@
     "vue3.md",
     "vertical-align.md",
     "proxy.md",
-    "postcss插件开发记录.md",
-    "poptate-test.md"
+    "postcss插件开发记录.md"
   ]
 }
