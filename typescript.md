@@ -11,7 +11,7 @@
 >  If a module identifier is only ever used as part of a type annotations and never as an expression, then no `require` call is emitted for that module.
 
 
-
+### [Code Generation for Modules](https://www.typescriptlang.org/docs/handbook/modules.html#code-generation-for-modules)
 
 | ![zOkJd1.md.jpg](https://s1.ax1x.com/2022/12/20/zOkJd1.md.jpg) | ![zOkGZR.md.jpg](https://s1.ax1x.com/2022/12/20/zOkGZR.md.jpg) |
 | ------------------------------------------------- | ------------------------------------------------- |
