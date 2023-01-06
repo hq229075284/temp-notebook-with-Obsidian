@@ -17,5 +17,34 @@
 | ------------------------------------------------- | ------------------------------------------------- |
 
 
+### [Merging ambient class and interface declaration](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#merging-ambient-class-and-interface-declaration)
+
+```typescript
+class Foo {
+  public x: number=1;
+}
+
+interface Foo {
+  y: string;
+  fn():void;
+}
+
+function bar(foo: Foo) {
+  foo.x = 1; // OK, declared in the class Foo
+  foo.y = "1"; // OK, declared in the interface Foo
+  foo.fn()// ERROR, declared in the interface Foo, but not immpal
+}
+
+const foo=new Foo()
+
+bar(foo)
+```
+
+### type guard
+
+>Reference:
+>[`this`-based type guards](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-based-type-guards)
+>[User-defined type guard functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#user-defined-type-guard-functions)
+>[Using type predicates](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
 
 
