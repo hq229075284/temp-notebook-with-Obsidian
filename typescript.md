@@ -46,5 +46,6 @@ bar(foo)
 >[`this`-based type guards](https://www.typescriptlang.org/docs/handbook/2/classes.html#this-based-type-guards)
 >[User-defined type guard functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#user-defined-type-guard-functions)
 >[Using type predicates](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
+>[Assertion Functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
 
 
