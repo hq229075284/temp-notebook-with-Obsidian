@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0f10e79d69e103d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Eslint Notes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hard link and soft link(symbolic link).md"
+                "file": "Eslint Notes.md"
               }
             }
           }
@@ -108,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "hard link and soft link(symbolic link).md",
+                "file": "Eslint Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -162,10 +175,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "22c342ac227df266",
+  "active": "0f10e79d69e103d7",
   "lastOpenFiles": [
-    "typescript.md",
     "hard link and soft link(symbolic link).md",
+    "typescript.md",
     "未命名 1.md",
     "Dingtalk_20221220170007.jpg",
     "HTTPS.md",
