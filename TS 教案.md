@@ -3,14 +3,81 @@
 
 ## interface、type
 
+### 拓展方式不同
+```typescript
+interface Animal {
+  name: string
+}
+
+interface Bear extends Animal {
+  honey: boolean
+}
+
+type Bear = Animal & { 
+  honey: boolean 
+}
+```
+
+### 是否多次声明类型
+
+```typescript
+// OK, participate declaration merging. 参与类型合并
+interface A {
+  title: string
+}  
+interface A {
+  ts: TypeScriptAPI
+}
+
+// Error, Duplicate identifier. 重复定义
+type B = {
+  title: string
+}  
+type B = {
+  ts: TypeScriptAPI
+}
+```
+
+### 声明限制
+
+interface仅用于声明对象类型（object, function, newable function），interface不支持声明基本数据类型（rename）
+```
+interface Obj{
+  x:string
+}
+
+type numberAlias = number
+```
 
 ## global、module
+
+```
+// global.ts
+interface Obj{
+  x:string
+}
+
+// customer.ts
+var a:Obj
+a.x // 类型为string
+
+// -------------------------------------------------------
+
+// module.ts
+interface Obj{
+  x:string
+}
+export {}
+
+// customer.ts
+var a:Obj // Cannot find name 'Obj'
+```
 
 
 ## type merge
 
 
-## union、intersection、
+## union、intersection、type parameters
 
 ```typescript
 // union
@@ -19,7 +86,7 @@ type Size = "small" | "medium" | "large"
 // intersection
 type coord = { x: number } & { y: number }
 
-// 
+// type parameters
 interface A1<T>{
 	p1: T
 	p2: number
@@ -114,6 +181,7 @@ d1=d2 // OK
 ### 特殊类型
 
 [`Any`,`unknown`,`object`,`void`,`undefined`,`null`, and`never`assignability](https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability)
+
 
 ## conditional type
 
