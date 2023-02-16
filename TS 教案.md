@@ -2,7 +2,22 @@
 
 ### enum
 
+```typescript
+function getFirst() {
+    return 1
+}
 
+enum A {
+    one = getFirst(),
+    three = 3,
+    six = 6,
+    twentyFour = 24,
+}
+
+// 可以实现双向映射
+A['one'] // 1
+A[24] // twentyFour
+```
 ### never
 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#the-never-type
 ```typescript
@@ -261,4 +276,5 @@ d1=d2 // OK
 type target<T> = T extends Number ? Number : String 
 ```
 
-## 类型约束
+## Narrowing
+
