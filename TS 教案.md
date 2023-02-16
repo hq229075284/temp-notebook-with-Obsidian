@@ -110,6 +110,11 @@ var d1:Derived1
 var d2:Derived2
 d1=d2 // OK
 ```
+
+### 特殊类型
+
+[`Any`,`unknown`,`object`,`void`,`undefined`,`null`, and`never`assignability](https://www.typescriptlang.org/docs/handbook/type-compatibility.html#any-unknown-object-void-undefined-null-and-never-assignability)
+
 ## conditional type
 
 ```typescript
