@@ -1,5 +1,40 @@
 ## enum、never、new
 
+### never
+```typescript
+// never在这里表示函数抛出异常或执行终止
+function fail(msg: string): never {
+	throw new Error(msg);
+}
+
+// never在这里表示无法到达
+function F(p: string | number) {
+  if (typeof p === 'string') {
+    p
+  } else if (typeof p === 'number') {
+    p
+  } else {
+    p // type 为 never
+  }
+}
+```
+
+new
+```typescript
+
+type InstanceStruction = {
+  x: number
+}
+
+interface newConstructor {
+  new(p: string): InstanceStruction
+}
+
+var ClassFn: newConstructor
+var instance = new ClassFn('1')
+instance.x // number
+
+```
 
 ## interface、type
 
@@ -188,3 +223,5 @@ d1=d2 // OK
 ```typescript
 type target<T> = T extends Number ? Number : String 
 ```
+
+## 类型约束
