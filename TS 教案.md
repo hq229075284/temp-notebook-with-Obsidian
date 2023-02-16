@@ -1,6 +1,10 @@
 ## enum、never、new
 
+### enum
+
+
 ### never
+https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#the-never-type
 ```typescript
 // never在这里表示函数抛出异常或执行终止
 function fail(msg: string): never {
@@ -109,7 +113,7 @@ type B = {
 ### 声明限制
 
 interface仅用于声明对象类型（object, function, newable function），interface不支持声明基本数据类型（rename）
-```
+```typescript
 interface Obj{
   x:string
 }
@@ -119,7 +123,7 @@ type numberAlias = number
 
 ## global、module
 
-```
+```typescript
 // global.ts
 interface Obj{
   x:string
