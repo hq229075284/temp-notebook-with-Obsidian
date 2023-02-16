@@ -19,13 +19,21 @@ function F(p: string | number) {
 }
 ```
 
-new
+### new
 ```typescript
-
 type InstanceStruction = {
   x: number
 }
 
+var Ctor:new ()=>InstanceStruction
+var instance=new Ctor()
+instance.x // number
+
+// ------------------------------------------
+
+type InstanceStruction = {
+  x: number
+}
 interface newConstructor {
   new(p: string): InstanceStruction
 }
@@ -34,6 +42,31 @@ var ClassFn: newConstructor
 var instance = new ClassFn('1')
 instance.x // number
 
+// ------------------------------------------
+
+class A{
+  x:number
+  constructor(p:string){
+    this.x=1
+  }
+}
+var a:typeof A
+
+interface Ctor{
+  new (p:string):{x:number}
+}
+var b:Ctor
+
+a=b // OK, 近似于typeof A === Ctor
+
+// ------------------------------------------
+
+class Food{}
+function fn1(arg:Food){}
+function fn2(arg:typeof Food){}
+
+fn1(new Food) // OK
+fn2(Food) // OK
 ```
 
 ## interface、type
@@ -112,7 +145,7 @@ var a:Obj // Cannot find name 'Obj'
 ## type merge
 
 
-## union、intersection、type parameters
+## union、intersection、generic
 
 ```typescript
 // union
