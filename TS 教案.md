@@ -205,6 +205,34 @@ interface Cloner {
 
 
 ```
+### namespace merge
+```typescript
+
+// namespace间合并
+namespace Animal {
+	let haveMuscles = true;
+	export function animalsHaveMuscles() {
+		return haveMuscles;
+	}
+}
+
+namespace Animal {
+	export function doAnimalsHaveMuscles() {
+		return haveMuscles; // Error, because haveMuscles is not accessible here
+	}
+}
+
+// namespace给class添加静态属性
+class A {
+	label: typeof A.B;
+}
+
+namespace A {
+	export function B() {
+		
+	}
+}
+```
 
 ## union、intersection、generic
 
