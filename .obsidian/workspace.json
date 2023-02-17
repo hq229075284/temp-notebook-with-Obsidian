@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS 教案.md"
+                "file": "typescript.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TS 教案.md",
+                "file": "typescript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
