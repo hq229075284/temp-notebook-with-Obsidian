@@ -162,7 +162,17 @@ var a:Obj // Cannot find name 'Obj'
 
 
 ## type merge
-
+### interface merge
+```typescript
+interface Box {
+	height: number;
+	width: number;
+}
+interface Box {
+	scale: number;
+}
+let box: Box = { height: 5, width: 6, scale: 10 };
+```
 
 ## union、intersection、generic
 

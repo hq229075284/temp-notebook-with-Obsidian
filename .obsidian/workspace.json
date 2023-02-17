@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript.md"
+                "file": "TS 教案.md"
               }
             }
           }
@@ -134,7 +134,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "typescript.md",
+                "file": "TS 教案.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,10 +188,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "f9a15f671331d09b",
+  "active": "62fa6c9cb4b3148a",
   "lastOpenFiles": [
-    "Eslint Notes.md",
     "typescript.md",
+    "Eslint Notes.md",
     "hard link and soft link(symbolic link).md",
     "TS 教案.md",
     "未命名 1.md",
