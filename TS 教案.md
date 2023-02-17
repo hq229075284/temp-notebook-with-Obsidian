@@ -172,6 +172,38 @@ interface Box {
 	scale: number;
 }
 let box: Box = { height: 5, width: 6, scale: 10 };
+
+// ---------------------------------------------------
+
+interface Cloner {
+	clone(animal: Animal): Animal;
+}
+
+interface Cloner {
+	clone(animal: 'a dog'): Dog;
+}
+
+interface Cloner {
+	clone(animal: Dog): Dog;
+	clone(animal: Cat): Cat;
+}
+// 👆 seem as 👇
+interface Cloner {
+	// 此group，参数类型为字符串字面量时，优先级高
+	clone(animal: 'a dog'): Dog;
+	
+	// 此group优先级较高
+	// group内部保持原优先级
+	clone(animal: Dog): Dog;
+	clone(animal: Cat): Cat;
+	
+	// 此group优先级低
+	clone(animal: Animal): Animal;
+}
+
+// ---------------------------------------------------
+
+
 ```
 
 ## union、intersection、generic
