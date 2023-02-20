@@ -348,3 +348,40 @@ type target<T> = T extends Number ? Number : String
 
 ## Narrowing
 
+```typescript
+
+// typeof 收缩类型范围
+function TypeGuard(param: string[] | string | number | null) {
+  if (typeof param === 'object') {
+    console.log(param);
+  } else if (typeof param === 'string') {
+    console.log(param);
+  } else {
+    console.log(param);
+  }
+}
+
+// if、&&、||、! 收缩类型范围
+function Truthiness(param: string | null) {
+  // 空字符串或null
+  if (param) {
+    console.log(param);
+  } else {
+    console.log(param);
+  }
+}
+
+// ===、!==、==、!= 收缩类型范围
+function Equality(x: string | number, y: string | boolean) {
+  if (x === y) {
+    console.log(x, y);
+  } else if (x === 0) {
+    console.log(x);
+  } else if (y === false) {
+    console.log(y);
+  }
+}
+
+
+
+```
