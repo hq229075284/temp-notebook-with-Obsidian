@@ -17,7 +17,7 @@
 | ------------------------------------------------- | ------------------------------------------------- |
 
 
-### [Merging ambient class and interface declaration](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#merging-ambient-class-and-interface-declaration)
+### [Merging ambient class and interface declaration](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#merging-ambient-class-and-interface-declaration) And [module-augmentation](https://www.typescriptlang.org/docs/handbook/declaration-merging.html#module-augmentation)
 
 ```typescript
 class Foo {
@@ -47,5 +47,8 @@ bar(foo)
 >[User-defined type guard functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-1-6.html#user-defined-type-guard-functions)
 >[Using type predicates](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
 >[Assertion Functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
+
+### Type Assert
+[TypeScript only allows type assertions which convert to a _more specific_ or _less specific_ version of a type.](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
 
 

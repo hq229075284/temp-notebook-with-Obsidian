@@ -382,6 +382,51 @@ function Equality(x: string | number, y: string | boolean) {
   }
 }
 
+// in 收缩类型范围
+type Fish = { animal: boolean; swim: boolean };
+type Bird = { animal: boolean; fly: boolean };
+function inGuard(pet: Fish | Bird) {
+  if ('animal' in pet) {
+    console.log(pet);
+  }
+  if ('swim' in pet) {
+    console.log(pet);
+  }
+  if ('fly' in pet) {
+    console.log(pet);
+  }
+}
 
+// instanceof 收缩类型范围
+function logValue(x: Date | string) {
+  if (x instanceof Date) {
+    console.log(x);
+  } else {
+    console.log(x);
+  }
+}
+
+// 分析流程 收缩类型范围
+function padLeft(padding: number | string, input: string) {
+  if (typeof padding === 'number') {
+    return ' '.repeat(padding) + input;
+  }
+  return padding + input;
+}
+
+// user-defined type guard 类似类型断言
+type Fish = { animal: boolean; swim: boolean };
+type Bird = { animal: boolean; fly: boolean };
+function isFish(pet: Fish | Bird): pet is Fish {
+  return 'swim' in pet;
+}
+
+function action(pet: Fish | Bird) {
+  if (isFish(pet)) {
+    pet.swim;
+  } else {
+    pet.fly;
+  }
+}
 
 ```
