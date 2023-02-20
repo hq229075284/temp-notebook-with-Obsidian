@@ -256,7 +256,7 @@ type A2<T> = { x: T } & { y: 1 }
 
 ### 一般
 
-类型结构相同即可
+类型结构相似且source类型能满足target类型的要求
 
 ### 函数
 
@@ -414,7 +414,7 @@ function padLeft(padding: number | string, input: string) {
   return padding + input;
 }
 
-// user-defined type guard 类似类型断言
+// user-defined type guard 自定义收缩类型范围
 type Fish = { animal: boolean; swim: boolean };
 type Bird = { animal: boolean; fly: boolean };
 function isFish(pet: Fish | Bird): pet is Fish {
@@ -429,4 +429,30 @@ function action(pet: Fish | Bird) {
   }
 }
 
+// 类型定义与收缩的思考
+interface Shape {
+  kind: 'circle' | 'square';
+  radius?: number;
+  sideLength?: number;
+}
+const thing: Shape = { kind: 'circle', radius: 1 };
+if (thing.kind === 'circle') {
+  2 * Math.PI * thing.radius;
+}
+
+////////////// --------VS----------------------
+
+interface Circle {
+  kind: 'circle';
+  radius: number;
+}
+interface Square {
+  kind: 'square';
+  sideLength: number;
+}
+type Shape = Circle | Square;
+const thing: Shape = { kind: 'circle', radius: 1 };
+if (thing.kind === 'circle') {
+  2 * Math.PI * thing.radius;
+}
 ```
