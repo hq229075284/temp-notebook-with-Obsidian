@@ -200,10 +200,6 @@ interface Cloner {
 	// 此group优先级低
 	clone(animal: Animal): Animal;
 }
-
-// ---------------------------------------------------
-
-
 ```
 ### namespace merge
 ```typescript
@@ -222,7 +218,7 @@ namespace Animal {
 	}
 }
 
-// namespace给class添加静态属性
+// namespace给class添加静态属性，也可以给函数添加静态成员
 class A {
 	label: typeof A.B;
 }
@@ -232,8 +228,39 @@ namespace A {
 		
 	}
 }
+
+// namespace给enum添加额外属性
+enum Color {
+  red = 1,
+}
+
+namespace Color {
+  export function mixColor(colorName: string) {
+  }
+}
+
 ```
 
+### module augmentation
+```typescript
+// 定义模块外添加的属性
+// observable.ts
+export class Observable<T> {
+  // ... implementation left as an exercise for the reader ...
+}
+
+// map.ts
+import { Observable } from "./observable";
+declare module "./observable" {
+  interface Observable<T> {
+    map<U>(f: (x: T) => U): Observable<U>; // 仅定义了类型，没有具体实现
+  }
+}
+// 编写具体实现
+Observable.prototype.map = function (f) {
+  // ... another exercise for the reader
+};
+```
 ## union、intersection、generic
 
 ```typescript
@@ -243,7 +270,7 @@ type Size = "small" | "medium" | "large"
 // intersection
 type coord = { x: number } & { y: number }
 
-// type parameters
+// generic
 interface A1<T>{
 	p1: T
 	p2: number
