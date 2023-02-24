@@ -58,9 +58,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f834bfad8f23449e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -180,15 +190,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "62fa6c9cb4b3148a",
+  "active": "f834bfad8f23449e",
   "lastOpenFiles": [
     "typescript.md",
     "TS 教案.md",
