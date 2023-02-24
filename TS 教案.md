@@ -279,6 +279,10 @@ interface A1<T>{
 type A2<T> = { x: T } & { y: 1 }
 ```
 
+
+## type Inference
+
+
 ## type compatibility
 
 ### 一般
@@ -483,3 +487,6 @@ if (thing.kind === 'circle') {
   2 * Math.PI * thing.radius;
 }
 ```
+
+## Module Resolution
+
