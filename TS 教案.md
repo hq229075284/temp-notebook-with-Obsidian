@@ -200,10 +200,6 @@ interface Cloner {
 	// 此group优先级低
 	clone(animal: Animal): Animal;
 }
-
-// ---------------------------------------------------
-
-
 ```
 ### namespace merge
 ```typescript
@@ -222,7 +218,7 @@ namespace Animal {
 	}
 }
 
-// namespace给class添加静态属性
+// namespace给class添加静态属性，也可以给函数添加静态成员
 class A {
 	label: typeof A.B;
 }
@@ -232,8 +228,39 @@ namespace A {
 		
 	}
 }
+
+// namespace给enum添加额外属性
+enum Color {
+  red = 1,
+}
+
+namespace Color {
+  export function mixColor(colorName: string) {
+  }
+}
+
 ```
 
+### module augmentation
+```typescript
+// 定义模块外添加的属性
+// observable.ts
+export class Observable<T> {
+  // ... implementation left as an exercise for the reader ...
+}
+
+// map.ts
+import { Observable } from "./observable";
+declare module "./observable" {
+  interface Observable<T> {
+    map<U>(f: (x: T) => U): Observable<U>; // 仅定义了类型，没有具体实现
+  }
+}
+// 编写具体实现
+Observable.prototype.map = function (f) {
+  // ... another exercise for the reader
+};
+```
 ## union、intersection、generic
 
 ```typescript
@@ -243,20 +270,29 @@ type Size = "small" | "medium" | "large"
 // intersection
 type coord = { x: number } & { y: number }
 
-// type parameters
+// generic
 interface A1<T>{
 	p1: T
 	p2: number
 }
 
 type A2<T> = { x: T } & { y: 1 }
+
+// 受约束的函数泛型
+function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
+	return obj[key];
+}
 ```
+
+
+## type Inference
+https://stackoverflow.com/a/70320446
 
 ## type compatibility
 
 ### 一般
 
-类型结构相同即可
+类型结构相似且source类型能满足target类型的要求
 
 ### 函数
 
@@ -348,3 +384,128 @@ type target<T> = T extends Number ? Number : String
 
 ## Narrowing
 
+```typescript
+
+// typeof 收缩类型范围
+function TypeGuard(param: string[] | string | number | null) {
+  if (typeof param === 'object') {
+    console.log(param);
+  } else if (typeof param === 'string') {
+    console.log(param);
+  } else {
+    console.log(param);
+  }
+}
+
+// if、&&、||、! 收缩类型范围
+function Truthiness(param: string | null) {
+  // 空字符串或null
+  if (param) {
+    console.log(param);
+  } else {
+    console.log(param);
+  }
+}
+
+// ===、!==、==、!= 收缩类型范围
+function Equality(x: string | number, y: string | boolean) {
+  if (x === y) {
+    console.log(x, y);
+  } else if (x === 0) {
+    console.log(x);
+  } else if (y === false) {
+    console.log(y);
+  }
+}
+
+// in 收缩类型范围
+type Fish = { animal: boolean; swim: boolean };
+type Bird = { animal: boolean; fly: boolean };
+function inGuard(pet: Fish | Bird) {
+  if ('animal' in pet) {
+    console.log(pet);
+  }
+  if ('swim' in pet) {
+    console.log(pet);
+  }
+  if ('fly' in pet) {
+    console.log(pet);
+  }
+}
+
+// instanceof 收缩类型范围
+function logValue(x: Date | string) {
+  if (x instanceof Date) {
+    console.log(x);
+  } else {
+    console.log(x);
+  }
+}
+
+// 分析流程 收缩类型范围
+function padLeft(padding: number | string, input: string) {
+  if (typeof padding === 'number') {
+    return ' '.repeat(padding) + input;
+  }
+  return padding + input;
+}
+
+// user-defined type guard 自定义收缩类型范围
+type Fish = { animal: boolean; swim: boolean };
+type Bird = { animal: boolean; fly: boolean };
+function isFish(pet: Fish | Bird): pet is Fish {
+  return 'swim' in pet;
+}
+
+function action(pet: Fish | Bird) {
+  if (isFish(pet)) {
+    pet.swim;
+  } else {
+    pet.fly;
+  }
+}
+
+// 类型定义与收缩的思考
+interface Shape {
+  kind: 'circle' | 'square';
+  radius?: number;
+  sideLength?: number;
+}
+const thing: Shape = { kind: 'circle', radius: 1 };
+if (thing.kind === 'circle') {
+  2 * Math.PI * thing.radius;
+}
+
+////////////// --------VS----------------------
+
+interface Circle {
+  kind: 'circle';
+  radius: number;
+}
+interface Square {
+  kind: 'square';
+  sideLength: number;
+}
+type Shape = Circle | Square;
+const thing: Shape = { kind: 'circle', radius: 1 };
+if (thing.kind === 'circle') {
+  2 * Math.PI * thing.radius;
+}
+```
+
+## Module Resolution
+https://www.typescriptlang.org/docs/handbook/module-resolution.html#how-typescript-resolves-modules
+
+```json
+{
+
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "@/*":["./src/*"]
+    }
+  }
+}
+```
