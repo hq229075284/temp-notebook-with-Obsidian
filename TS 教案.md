@@ -494,4 +494,18 @@ if (thing.kind === 'circle') {
 ```
 
 ## Module Resolution
+https://www.typescriptlang.org/docs/handbook/module-resolution.html#how-typescript-resolves-modules
 
+```json
+{
+
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "@/*":["./src/*"]
+    }
+  }
+}
+```
