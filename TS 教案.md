@@ -277,6 +277,11 @@ interface A1<T>{
 }
 
 type A2<T> = { x: T } & { y: 1 }
+
+// 受约束的函数泛型
+function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
+	return obj[key];
+}
 ```
 
 
