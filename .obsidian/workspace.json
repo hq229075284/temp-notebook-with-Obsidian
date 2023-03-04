@@ -11,8 +11,13 @@
             "id": "ffee15215c5434d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "数学问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -81,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "typescript.md"
+                "file": "数学问题.md"
               }
             }
           },
@@ -137,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "typescript.md",
+                "file": "数学问题.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,10 +196,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2894476c3fc26360",
+  "active": "ffee15215c5434d7",
   "lastOpenFiles": [
     "未命名.canvas",
-    "未命名.md",
+    "数学问题.md",
     "TS 教案.md",
     "conflict-files-obsidian-git.md",
     "Dingtalk_20221220170007.jpg",
