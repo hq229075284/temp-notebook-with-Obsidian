@@ -287,6 +287,8 @@ function getProperty<Type, Key extends keyof Type>(obj: Type, key: Key) {
 
 ## type Inference
 https://stackoverflow.com/a/70320446
+https://stackoverflow.com/a/64653179
+
 
 ## type compatibility
 
