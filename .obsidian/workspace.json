@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa212a334ecb42f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学问题.md"
+                "file": "flex.md"
               }
             }
           },
@@ -142,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "数学问题.md",
+                "file": "flex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,10 +210,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ffee15215c5434d7",
+  "active": "fa212a334ecb42f8",
   "lastOpenFiles": [
-    "未命名.canvas",
     "数学问题.md",
+    "未命名.canvas",
     "TS 教案.md",
     "conflict-files-obsidian-git.md",
     "Dingtalk_20221220170007.jpg",
