@@ -88,6 +88,32 @@ fn1(new Food) // OK
 fn2(Food) // OK
 ```
 
+### Tuple
+
+```typescript
+type difineTuple = [string, number];
+
+// ------------------------------------------
+
+function readInput(...args: [string, number, ...boolean[]]) {
+	const [name, version, ...input] = args;
+}
+
+// ------------------------------------------
+
+function doSomething(args: readonly [string, number]) {
+	args[0] = "hello!";// Error
+}
+
+// ------------------------------------------
+
+let point = [3, 4] as const;
+function distanceFromOrigin([x, y]: [number, number]) {
+	return Math.sqrt(x ** 2 + y ** 2);
+}
+distanceFromOrigin(point); // Error，为了保证point内的元素不被修改
+```
+
 ## interface、type
 
 ### 拓展方式不同
