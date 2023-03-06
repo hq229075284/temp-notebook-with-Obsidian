@@ -4,21 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6cb95ebf9eb4a8e3",
+        "id": "9de2e816eb3714c2",
         "type": "tabs",
         "children": [
           {
-            "id": "e5a773d8316961eb",
+            "id": "ffee15215c5434d7",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "TS 教案.md",
-                "staged": true
+                "file": "数学问题.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa212a334ecb42f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -84,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "flex.md"
+              }
             }
           },
           {
@@ -139,6 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "flex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,8 +210,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e5a773d8316961eb",
+  "active": "fa212a334ecb42f8",
   "lastOpenFiles": [
+    "数学问题.md",
+    "未命名.canvas",
     "TS 教案.md",
     "conflict-files-obsidian-git.md",
     "Dingtalk_20221220170007.jpg",
@@ -201,8 +221,6 @@
     "HTTPS.md",
     "Table.md",
     "ResizeObserver.md",
-    "fullscreen测试.md",
-    "代码审查问题.md",
-    "TODO LIST.md"
+    "fullscreen测试.md"
   ]
 }
