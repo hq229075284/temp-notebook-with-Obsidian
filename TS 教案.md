@@ -542,3 +542,9 @@ https://www.typescriptlang.org/docs/handbook/module-resolution.html#how-typescri
   }
 }
 ```
+
+## 使用场景
+
+1. 产品、通用组件、工具类
+2. 长迭代
+3. 非敏捷
