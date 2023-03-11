@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "4ce4e75aed58ad8a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +151,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b5270162588e9ca4",
+  "active": "4ce4e75aed58ad8a",
   "lastOpenFiles": [
     "typescript.md",
     "TS 教案.md",
