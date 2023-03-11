@@ -11,8 +11,13 @@
             "id": "b5270162588e9ca4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "TS 教案.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           },
           {
@@ -83,7 +88,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TS 教案.md"
+              }
             }
           }
         ]
@@ -98,6 +105,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "TS 教案.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
