@@ -13,25 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TS 教案.md",
+                "file": "Eslint Notes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "4ce4e75aed58ad8a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TS 教案.md"
+                "file": "Eslint Notes.md"
               }
             }
           }
@@ -105,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "TS 教案.md",
+                "file": "Eslint Notes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -159,12 +148,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4ce4e75aed58ad8a",
+  "active": "b5270162588e9ca4",
   "lastOpenFiles": [
-    "typescript.md",
-    "TS 教案.md",
-    "数学问题.md",
     "flex.md",
+    "TS 教案.md",
+    "typescript.md",
+    "数学问题.md",
     "Eslint Notes.md",
     "未命名.canvas",
     "png.md",
