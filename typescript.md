@@ -51,4 +51,23 @@ bar(foo)
 ### Type Assert
 [TypeScript only allows type assertions which convert to a _more specific_ or _less specific_ version of a type.](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-assertions)
 
+## 以下例子存在疑点
 
+```typescript
+let a1:number[]|string[]=[1,2,3]
+a1
+// ^?
+const list=['a','b','c']
+
+list.forEach(a=>{
+  // a1.push(1)
+  a1
+  // ^?
+})
+
+// ------------------------------------------------
+var a:number[]|never[]
+// ^?
+var b=a[0]
+// ^?
+```
