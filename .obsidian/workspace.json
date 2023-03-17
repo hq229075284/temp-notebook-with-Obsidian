@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flex.md",
+                "file": "typescript.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flex.md"
+                "file": "typescript.md"
               }
             }
           }
@@ -94,7 +94,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "flex.md",
+                "file": "typescript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -150,8 +150,8 @@
   },
   "active": "b5270162588e9ca4",
   "lastOpenFiles": [
-    "Eslint Notes.md",
     "flex.md",
+    "Eslint Notes.md",
     "TS 教案.md",
     "typescript.md",
     "数学问题.md",
