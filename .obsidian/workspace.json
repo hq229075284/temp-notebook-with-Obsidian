@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "bd76a958f3486b67",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -56,6 +67,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "bcc1d2af889fb652",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -148,7 +167,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b5270162588e9ca4",
+  "active": "bd76a958f3486b67",
   "lastOpenFiles": [
     "Eslint Notes.md",
     "flex.md",
