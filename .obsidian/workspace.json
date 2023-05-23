@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c246f21d679ff8cc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,7 +178,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "550fab93fe1c1f94",
+  "active": "c246f21d679ff8cc",
   "lastOpenFiles": [
     "小程序相关.md",
     "组员空闲情况.md",
