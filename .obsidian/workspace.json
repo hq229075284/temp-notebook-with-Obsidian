@@ -107,9 +107,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "组员空闲情况.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -124,7 +122,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "组员空闲情况.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,6 +177,9 @@
   },
   "active": "c246f21d679ff8cc",
   "lastOpenFiles": [
+    "数学/导数.md",
+    "数学",
+    "conflict-files-obsidian-git.md",
     "小程序相关.md",
     "组员空闲情况.md",
     "Eslint Notes.md",
