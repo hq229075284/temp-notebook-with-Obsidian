@@ -35,9 +35,12 @@
             "id": "c246f21d679ff8cc",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.2.8"
+                "file": "TS 教案.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -107,7 +110,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "TS 教案.md"
+              }
             }
           }
         ]
@@ -122,6 +127,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "TS 教案.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -177,23 +183,23 @@
   },
   "active": "c246f21d679ff8cc",
   "lastOpenFiles": [
+    "typescript.md",
+    "Eslint Notes.md",
+    "Table.md",
+    "HTTPS.md",
     "数学/导数.md",
     "数学",
     "conflict-files-obsidian-git.md",
     "小程序相关.md",
     "组员空闲情况.md",
-    "Eslint Notes.md",
     "flex.md",
     "TS 教案.md",
-    "typescript.md",
     "数学问题.md",
     "未命名.canvas",
     "png.md",
     "hard link and soft link(symbolic link).md",
     "未命名 1.md",
     "Dingtalk_20221220170007.jpg",
-    "HTTPS.md",
-    "Table.md",
     "ResizeObserver.md",
     "fullscreen测试.md"
   ]
