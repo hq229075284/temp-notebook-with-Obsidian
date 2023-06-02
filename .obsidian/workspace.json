@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微服务.md",
-                "mode": "source",
+                "file": "typescript.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "微服务.md"
+                "file": "typescript.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "微服务.md",
+                "file": "typescript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,6 +166,8 @@
   },
   "active": "0ff506f9bf5db262",
   "lastOpenFiles": [
+    "HTTPS.md",
+    "微服务.md",
     "Pasted image 20230525200610.png",
     "Pasted image 20230525200252.png",
     "Pasted image 20230525195927.png",
@@ -174,14 +176,12 @@
     "Pasted image 20230525225215.png",
     "Pasted image 20230525225050.png",
     "Pasted image 20230525202112.png",
-    "微服务.md",
     "proxy.md",
     "组员空闲情况.md",
     "TS 教案.md",
     "typescript.md",
     "Eslint Notes.md",
     "Table.md",
-    "HTTPS.md",
     "数学/导数.md",
     "数学",
     "conflict-files-obsidian-git.md",
