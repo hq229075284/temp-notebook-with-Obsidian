@@ -4,18 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "f9537d1aad4fba3d",
+        "id": "a8d94b81f4251203",
         "type": "tabs",
         "children": [
           {
-            "id": "fc1bf66ba14b158d",
+            "id": "8101ce9eff4522ab",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "477b2b46bb7d3c9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ICON-FONT.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -80,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ICON-FONT.md"
+              }
             }
           },
           {
@@ -103,6 +120,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "ICON-FONT.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -144,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 343.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,8 +175,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc1bf66ba14b158d",
+  "active": "477b2b46bb7d3c9d",
   "lastOpenFiles": [
+    "ICON-FONT.md",
     "组员空闲情况.md",
     "数学/导数.md",
     "TS 教案.md",
