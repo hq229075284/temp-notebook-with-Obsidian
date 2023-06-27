@@ -28,8 +28,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,9 +94,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ICON-FONT.md"
-              }
+              "state": {}
             }
           },
           {
@@ -120,7 +117,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ICON-FONT.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -175,7 +171,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "477b2b46bb7d3c9d",
+  "active": "8101ce9eff4522ab",
   "lastOpenFiles": [
     "ICON-FONT.md",
     "组员空闲情况.md",
