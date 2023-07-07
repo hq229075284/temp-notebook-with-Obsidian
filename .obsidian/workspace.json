@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "flex.md",
+                "file": "组员空闲情况.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -86,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "flex.md"
+                "file": "组员空闲情况.md"
               }
             }
           },
@@ -110,7 +111,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "flex.md",
+                "file": "组员空闲情况.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -165,12 +166,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f9a15f671331d09b",
+  "active": "0878421e7d55167a",
   "lastOpenFiles": [
-    "ICON-FONT.md",
-    "flex.md",
-    "组员空闲情况.md",
+    "驾驶舱问题.md",
+    "定海代码问题.md",
+    "代码审查问题.md",
     "数学/导数.md",
+    "小程序相关.md",
+    "flex.md",
+    "ICON-FONT.md",
+    "组员空闲情况.md",
     "TS 教案.md",
     "typescript.md",
     "HTTPS.md",
@@ -188,7 +193,6 @@
     "Table.md",
     "数学",
     "conflict-files-obsidian-git.md",
-    "小程序相关.md",
     "数学问题.md",
     "未命名.canvas",
     "png.md",
