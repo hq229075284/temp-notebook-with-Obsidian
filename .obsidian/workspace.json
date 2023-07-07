@@ -11,8 +11,13 @@
             "id": "0878421e7d55167a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "flex.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -80,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "flex.md"
+              }
             }
           },
           {
@@ -103,6 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "flex.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +165,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0878421e7d55167a",
+  "active": "f9a15f671331d09b",
   "lastOpenFiles": [
     "ICON-FONT.md",
     "flex.md",
