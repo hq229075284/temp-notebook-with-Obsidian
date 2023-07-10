@@ -4,11 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f7d9eb1669a4a055",
+        "id": "e7e2b127f0ced83e",
         "type": "tabs",
         "children": [
           {
-            "id": "0878421e7d55167a",
+            "id": "0ff506f9bf5db262",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "组员空闲情况.md",
+                "staged": true
+              }
+            }
+          },
+          {
+            "id": "c9e08cdfe6684ea9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -153,32 +164,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5,
-    "collapsed": true
+    "width": 343.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0878421e7d55167a",
+  "active": "c9e08cdfe6684ea9",
   "lastOpenFiles": [
-    "驾驶舱问题.md",
-    "定海代码问题.md",
-    "代码审查问题.md",
-    "数学/导数.md",
-    "小程序相关.md",
-    "flex.md",
     "ICON-FONT.md",
-    "组员空闲情况.md",
-    "TS 教案.md",
-    "typescript.md",
-    "HTTPS.md",
+    "conflict-files-obsidian-git.md",
     "微服务.md",
     "Pasted image 20230525200610.png",
     "Pasted image 20230525200252.png",
@@ -189,10 +190,16 @@
     "Pasted image 20230525225050.png",
     "Pasted image 20230525202112.png",
     "proxy.md",
+    "组员空闲情况.md",
+    "TS 教案.md",
+    "typescript.md",
     "Eslint Notes.md",
     "Table.md",
+    "HTTPS.md",
+    "数学/导数.md",
     "数学",
-    "conflict-files-obsidian-git.md",
+    "小程序相关.md",
+    "flex.md",
     "数学问题.md",
     "未命名.canvas",
     "png.md",
