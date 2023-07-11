@@ -8,17 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0ff506f9bf5db262",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": "组员空闲情况.md",
-                "staged": true
-              }
-            }
-          },
-          {
             "id": "c9e08cdfe6684ea9",
             "type": "leaf",
             "state": {
@@ -31,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
