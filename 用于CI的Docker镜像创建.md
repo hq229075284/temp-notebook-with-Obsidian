@@ -4,6 +4,7 @@
 cd /a/path && tar -xf /other/path/xxx.tar.xz # 会找不到解压出来的文件
 ```
 
+**TODO: Docker使用基于Ubuntu构建的CI镜像启动容器时，默认的PATH环境变量似乎无法自由指定。多种方式尝试下，PATH仍无法改变**
 
 ## 构建Docker镜像
 
