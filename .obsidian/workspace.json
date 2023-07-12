@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59bb2449d08f06af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "用于CI的Docker镜像创建.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -86,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "组员空闲情况.md"
+                "file": "用于CI的Docker镜像创建.md"
               }
             }
           },
@@ -110,7 +125,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "组员空闲情况.md",
+                "file": "用于CI的Docker镜像创建.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,8 +179,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c9e08cdfe6684ea9",
+  "active": "59bb2449d08f06af",
   "lastOpenFiles": [
+    "组员空闲情况.md",
+    "用于CI的Docker镜像创建.md",
     "ICON-FONT.md",
     "conflict-files-obsidian-git.md",
     "微服务.md",
@@ -178,7 +195,6 @@
     "Pasted image 20230525225050.png",
     "Pasted image 20230525202112.png",
     "proxy.md",
-    "组员空闲情况.md",
     "TS 教案.md",
     "typescript.md",
     "Eslint Notes.md",
