@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "用于CI的Docker镜像创建.md",
+                "file": "vue3.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -84,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bca8837689319ff8",
@@ -101,7 +99,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "用于CI的Docker镜像创建.md"
+                "file": "组员空闲情况.md"
               }
             }
           },
@@ -125,7 +123,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "用于CI的Docker镜像创建.md",
+                "file": "组员空闲情况.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -179,10 +177,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "59bb2449d08f06af",
+  "active": "c9e08cdfe6684ea9",
   "lastOpenFiles": [
-    "组员空闲情况.md",
+    "vue3.md",
     "用于CI的Docker镜像创建.md",
+    "vertical-align.md",
+    "组员空闲情况.md",
     "ICON-FONT.md",
     "conflict-files-obsidian-git.md",
     "微服务.md",
