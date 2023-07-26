@@ -72,3 +72,5 @@ $ sudo docker run -it ci_env bash
     volumes = ["/cache"]
     shm_size = 0
 ```
+
+[**What does unsafe-perm in npm actually do?**](https://geedew.com/What-does-unsafe-perm-in-npm-actually-do/)
