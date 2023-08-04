@@ -6,10 +6,7 @@
   "strictLineBreaks": true,
   "showFrontmatter": true,
   "communityThemeSortOrder": "release",
-  "spellcheckLanguages": [
-    "zh-CN",
-    "en-US"
-  ],
+  "spellcheckLanguages": null,
   "spellcheck": true,
   "useMarkdownLinks": true,
   "attachmentFolderPath": "/assets"
