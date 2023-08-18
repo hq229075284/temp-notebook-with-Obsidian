@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图表多样化展示-说明文档.md",
-                "mode": "preview",
+                "file": "Linux/用户与密码.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图表多样化展示-说明文档.md"
+                "file": "Linux/用户与密码.md"
               }
             }
           },
@@ -138,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "6c662aba5caba160",
@@ -151,7 +150,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "图表多样化展示-说明文档.md",
+                "file": "Linux/用户与密码.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,10 +204,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "153016126d6daca1",
+  "active": "f3a50965a7f728a2",
   "lastOpenFiles": [
-    "组员空闲情况.md",
     "图表多样化展示-说明文档.md",
+    "Linux/用户与密码.md",
+    "Linux",
+    "组员空闲情况.md",
     "vue3.md",
     "用于CI的Docker镜像创建.md",
     "vertical-align.md",
