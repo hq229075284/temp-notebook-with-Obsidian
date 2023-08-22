@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cnpmjs.org迁移到cnpmcore.md",
+                "file": "组员空闲情况.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cnpmjs.org迁移到cnpmcore.md"
+                "file": "组员空闲情况.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "cnpmjs.org迁移到cnpmcore.md",
+                "file": "组员空闲情况.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -219,15 +219,15 @@
   },
   "active": "daa5c85ef550c5cf",
   "lastOpenFiles": [
-    "Linux/用户与密码.md",
+    "用于CI的Docker镜像创建.md",
     "cnpmjs.org迁移到cnpmcore.md",
+    "Linux/用户与密码.md",
     "cnpmcore/cnpmcore.md",
     "cnpmcore",
     "图表多样化展示-说明文档.md",
     "Linux",
     "组员空闲情况.md",
     "vue3.md",
-    "用于CI的Docker镜像创建.md",
     "vertical-align.md",
     "ICON-FONT.md",
     "conflict-files-obsidian-git.md",
