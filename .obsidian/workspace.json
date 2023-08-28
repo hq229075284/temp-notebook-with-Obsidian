@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "130服务器端口使用情况.md",
+                "file": "组员空闲情况.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "130服务器端口使用情况.md"
+                "file": "组员空闲情况.md"
               }
             }
           },
@@ -110,7 +110,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "130服务器端口使用情况.md",
+                "file": "组员空闲情况.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -166,13 +166,14 @@
   },
   "active": "57e009e13716bf63",
   "lastOpenFiles": [
+    "图表多样化展示-说明文档.md",
+    "130服务器端口使用情况.md",
     "组员空闲情况.md",
     "用于CI的Docker镜像创建.md",
     "cnpmjs.org迁移到cnpmcore.md",
     "Linux/用户与密码.md",
     "cnpmcore/cnpmcore.md",
     "cnpmcore",
-    "图表多样化展示-说明文档.md",
     "Linux",
     "vue3.md",
     "vertical-align.md",
@@ -203,7 +204,6 @@
     "hard link and soft link(symbolic link).md",
     "未命名 1.md",
     "Dingtalk_20221220170007.jpg",
-    "ResizeObserver.md",
-    "fullscreen测试.md"
+    "ResizeObserver.md"
   ]
 }
