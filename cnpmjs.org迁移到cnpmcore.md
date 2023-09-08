@@ -37,6 +37,7 @@ export const cnpmcoreConfig: CnpmcoreConfig = {
   checkChangesStreamInterval: 500,
   changesStreamRegistry: 'https://replicate.npmjs.com',
   changesStreamRegistryMode: ChangesStreamMode.streaming,
+  // 私有包服务地址前缀
   registry: process.env.CNPMCORE_CONFIG_REGISTRY || 'http://192.168.2.130:9008' || 'http://localhost:7001',
   alwaysAuth: false,
   allowScopes: [
@@ -50,6 +51,7 @@ export const cnpmcoreConfig: CnpmcoreConfig = {
   allowPublicRegistration: true,
   admins: {
     cnpmcore_admin: 'admin@cnpmjs.org',
+    // admins对象的key(键)和用户名对应
     hanq: 'hanq@qq.com',
   },
   enableWebAuthn: !!process.env.CNPMCORE_CONFIG_ENABLE_WEB_AUTHN,
@@ -257,7 +259,7 @@ authorization: Bearer cnpm_DO5Tc13MQhHvLIiuawdXWBBDrcthN790_VXMi7
 参数：
 {
   "registryName": "old-cnpm",
-  "syncDownloadData": false,  是否同步下载相关的统计数据，和config.default.ts中的DownloadData配置有关
+  "syncDownloadData": false,  是否同步下载量相关的统计数据，和config.default.ts中的DownloadData配置有关
   "skipDependencies": true,
   "force": true,
   "forceSyncHistory": true
