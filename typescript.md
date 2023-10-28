@@ -71,3 +71,12 @@ var a:number[]|never[]
 var b=a[0]
 // ^?
 ```
+
+
+```javascript
+/** @type {import('jest').Config} */  // <= 仅在js文件中有效，写法出处：https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html#import-types
+const config = {
+  // @dc es6模块转commonjs模块
+  transformIgnorePatterns: ['\\.pnpm\\\\(?!@dc)'],
+};
+```

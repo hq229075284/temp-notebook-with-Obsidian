@@ -76,3 +76,7 @@ $ sudo docker run -it ci_env bash
 [**What does unsafe-perm in npm actually do?**](https://geedew.com/What-does-unsafe-perm-in-npm-actually-do/)
 
 https://docs.npmjs.com/cli/v6/using-npm/config#unsafe-perm
+
+```bash
+sudo docker run --rm --name ci_test_workspace -v /home/dcxx/ci_test_workspace:/home/ci_test_workspace ci_env
+```
