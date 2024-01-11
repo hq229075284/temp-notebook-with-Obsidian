@@ -8,7 +8,7 @@
 
 ## 解决方法
 
-1. 在入口文件中显示的引入`vue/jsx`，参考：[jsx.d.ts](https://github.com/vuejs/core/blob/main/packages/vue/jsx.d.ts)
+1. 在入口文件中显式的引入`vue/jsx`，参考：[jsx.d.ts](https://github.com/vuejs/core/blob/main/packages/vue/jsx.d.ts)
 ```javascript
 import 'vue/jsx'
 ```
