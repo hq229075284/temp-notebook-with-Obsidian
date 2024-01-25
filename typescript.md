@@ -83,3 +83,30 @@ const config = {
 
 
 `^?`
+
+
+```typescript
+/**
+ * 枚举类型
+ */
+type ENUM_ITEM={label:string, value:any, color?:string}
+/**
+ * 提取类型上value外的字段
+ * {label:string,value:string} => string
+ * {label:string,value:string,color:string} => {label:string,color:string}
+ */
+type exceptValue<T extends ENUM_ITEM, V>=T extends {value:V} ? // 匹配value对应的项
+  {value:V, label:T['label']} extends T // 只有value和label属性时 <=👈 U extends T的用法
+    ? T['label']
+    : Omit<T, 'value'>
+  : never
+/**
+ * 类型上，枚举列表转枚举对象
+ */
+export type enumListToObject<T extends readonly ENUM_ITEM[]>={
+  [V in T[number]['value']]:exceptValue<T[number], V>
+}
+```
+
+**在条件类型中，如果存在泛型，且值为联合类型时，条件类型会处理联合类型中的每个成员，[参考](https://www.typescriptlang.org/docs/handbook/2/conditional-types.html#distributive-conditional-types)**
+
